@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #0084FD;
+    height: 60px;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;   
+}
+
+.first-maincontainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bigContainer{
+    background-color: #9792E4;
+    width: 100%;
+}
+
+.big-card{
+    background-color: #B5DDFF;
+    margin: 20px;
+    padding: 20px 20px 0 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: #B5DDFF;
+    margin: 20px;
+    padding: 20px 20px 0 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.white-card{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purple-card{
+    background-color: #9792E4;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intestazione{
+    color: #0084FD;
+    margin: 20px;
+}
+
+.intestazione2{
+    color: black;
+    margin: 20px;
+}
+
+.intestazione3{
+    color: #9792E4;
+    margin: 20px;
+    text-align: center;
+}
+
+.bigTitle{
+    color: white;
+    padding: 20px;
+}
+
+.easyText{
+    color: white;
+    padding: 20px;
+}
+
+.easyText2{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.corsivo{
+    color: black;
+    margin: 20px;
+}
+
+.text{
+    color: gray;
+    margin: 20px;
+}
+
+.text2{
+    color: black;
+    margin: 20px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #0084FD;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    width: 60%;
+}
+
+.fa-file-code,
+.fa-pen-ruler,
+.fa-laptop-code,
+.fa-bullhorn{
+    color: #0084FD;
+    font-size: 100px;
+}
+
+.fa-bars{
+    color: white;
+    padding-top: 20px;
+}
+
+.fa-arrow-down{
+    color: black;
+    background-color: #9792E4;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+img.logo{
+    padding-top: 10px;
+}
+
+img.phone{
+    width: 100%;
+}
+
+.circle{
+    width: 100%;
+    border-radius: 50%;
+    border: none;
+    margin: 20px;
+}
+
+.centro{
+    text-align: center;
+    margin: 40px;
+}
