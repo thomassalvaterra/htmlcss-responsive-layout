@@ -32,6 +32,11 @@ header{
     width: 100%;
 }
 
+.blackContainer{
+    background-color: #222222;
+    width: 100%;
+}
+
 .big-card{
     background-color: #B5DDFF;
     margin: 20px;
@@ -64,6 +69,16 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.white-card2{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
 }
 
 .purple-card{
@@ -126,6 +141,37 @@ header{
     text-align: center;
 }
 
+.text3{
+    margin: 20px;
+    line-height: 30px;
+}
+
+.small-text{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.small-text2{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    margin: 20px 20px 0 20px;
+}
+
+.orange-text{
+    color: orange;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.purple-text{
+    color: #9792E4;
+    margin: 20px;
+}
+
 .btn{
     background-color: #0084FD;
     color: white;
@@ -149,11 +195,13 @@ header{
     padding-top: 20px;
 }
 
-.fa-arrow-down{
-    color: black;
-    background-color: #9792E4;
-    padding: 20px;
-    border-radius: 50%;
+.fa-linkedin{
+    color: white;
+    padding-right: 10px;
+}
+
+.fa-circle{
+    font-size: 5px;
 }
 
 img.logo{
@@ -171,7 +219,72 @@ img.phone{
     margin: 20px;
 }
 
+.circle2{
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
 .centro{
     text-align: center;
     margin: 40px;
+}
+
+.tasto-wrapper{
+    text-align: center;
+    padding: 20px;
+}
+
+.tasto-rotondo{
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+}
+
+.tasto-more{
+    background-color: #9792E4;
+    border-radius: 25px;
+    padding: 15px 45px;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 20px;
+}
+
+.tasto-more2{
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px 45px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.tasto-more > a{
+    text-decoration: none;
+    color: white;
+}
+
+.tasto-more2 > a{
+    text-decoration: none;
+    color: #9792E4;
+}
+
+#und-text{
+    text-decoration: underline;
+}
+
+.violet-link{
+    color: #9792E4;
+    font-size: 13px;
+}
+
+.middle{
+    text-align: center;
+    margin-bottom: 20px;
 }
